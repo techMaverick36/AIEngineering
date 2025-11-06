@@ -10,7 +10,7 @@ const App = () => {
   })
   return (
     <div>
-      <p>${message}</p>
+      <p className=' text-blue-400 text-3xl p-4 font-bold'>{message}</p>
     </div>
   )
 }
